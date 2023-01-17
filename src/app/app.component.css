@@ -1,0 +1,265 @@
+.header {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-text {
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 144px;
+
+}
+
+.menu-text-d {
+  text-decoration: none;
+  color:#030305;
+
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+
+}
+
+.menu-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 244px;
+}
+
+.menu-logo {
+  padding: 25px 0;
+}
+
+.main {
+  background-image: url(../assets/images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 104px 0 154px 0;
+}
+
+.main-title {
+  font-weight: bold;
+  max-width: 855px;
+  font-size: 80px;
+  line-height: 88px;
+  text-align: left;
+  color: #030305;
+  margin-bottom: 40px;
+}
+
+.main-text {
+  max-width: 502px;
+  font-size: 16px;
+  color: #030305;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+
+.button {
+  padding: 20px;
+  width: 334px;
+  height: 64px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #030305;
+  bottom: 0;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: background-color .5s;
+}
+
+.button:hover:not(:disabled) {
+  cursor: pointer;
+  background-color: #575757;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  color: gray;
+  background-color: #343434;
+}
+
+.car {
+  margin-bottom: 100px;
+
+}
+
+.car-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.car-title {
+font-weight: bold;
+font-size: 60px;
+line-height: 70px;
+color: #030305;
+}
+
+.car-image {
+  vertical-align: bottom;
+  transition: all .5s;
+}
+
+.car-image:hover {
+  transform: scale(1.1);
+}
+
+.car-item {
+  max-width: 360px;
+}
+
+.car-name {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #030305;
+  margin-bottom: 15px;
+}
+
+.car-description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+
+.car-description-img {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.car-item button {
+  width: 100%;
+}
+
+.price-date {
+font-size: 16px;
+line-height: 21px;
+color: #030305;
+}
+
+.price {
+  margin-bottom: 121px;
+}
+
+.price-container {
+  position: relative;
+}
+
+.car-price {
+  margin-bottom: 20px;
+}
+
+.price-text {
+  font-size: 16px;
+  line-height: 130%;
+  counter-reset: #5D5D5F;
+  margin-bottom: 60px;
+}
+
+.price-form {
+  max-width: 344px;
+}
+
+.price-input {
+  padding: 22px 18px;
+  width: 344px;
+  height: 65px;
+  background: #FFFFFF;
+  border: 1px solid #5D5D5F;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.price-input::placeholder {
+  color: #505d5f;
+}
+
+.price-form button {
+  width: 100%;
+}
+
+.price-image {
+  position: absolute;
+  bottom: -130px;
+  left: 401px;
+}
+
+.footer-text {
+  font-size: 15px;
+  line-height: 18px;
+  color: #030305;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-text-d:hover {
+  border-bottom: 1px solid #000000;
+}
+
+.footer {
+  border-top: 1px solid #E5E5E5;
+}
+
+.price-input.ng-touched.ng-valid {
+  border: 1px solid #5d5d5f;
+}
+
+.price-input.ng-touched.ng-invalid {
+  border: 1px solid red;
+}
+
+.car-toggle {
+  display: flex;
+  width: 193px;
+  border: 1px solid gray;
+  margin: 20px 0;
+}
+
+.car-toggle div {
+  padding: 20px;
+  background: white;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: black;
+  transition: background-color .5s;
+  cursor: pointer;
+}
+
+.car-toggle div.active {
+  background: #030305;
+color: #FFFFFF;
+}
+
+.car .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+
